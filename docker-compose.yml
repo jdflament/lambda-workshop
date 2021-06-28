@@ -2,6 +2,7 @@ version: "3.4"
 
 services:
   php:
+    image: registry.gitlab.com/t-richard1/lambda-workshop/php:1.0.0
     build:
       context: .
       target: symfony_php
@@ -26,6 +27,7 @@ services:
       MERCURE_JWT_SECRET: ${CADDY_MERCURE_JWT_SECRET:-!ChangeMe!}
 
   caddy:
+    image: registry.gitlab.com/t-richard1/lambda-workshop/caddy:1.0.0
     build:
       context: .
       target: symfony_caddy
