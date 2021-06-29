@@ -109,7 +109,7 @@ RUN set -eux; \
 	composer symfony:dump-env prod; \
 	composer run-script --no-dev post-install-cmd; \
 	chmod +x bin/console; sync
-VOLUME /srv/app/var
+#VOLUME /srv/app/var
 
 ENTRYPOINT ["docker-entrypoint"]
 CMD ["php-fpm"]
