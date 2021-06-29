@@ -10,12 +10,20 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "*",
+        "symfony/debug-bundle": "5.3.*",
         "symfony/dotenv": "*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "*",
         "symfony/maker-bundle": "^1.32",
+        "symfony/monolog-bundle": "^3.0",
         "symfony/runtime": "*",
-        "symfony/yaml": "*"
+        "symfony/stopwatch": "5.3.*",
+        "symfony/twig-bundle": "5.3.*",
+        "symfony/var-dumper": "5.3.*",
+        "symfony/web-profiler-bundle": "5.3.*",
+        "symfony/yaml": "*",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     },
     "config": {
         "optimize-autoloader": true,
